@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-size: 1.1rem;
 }
+body{
+    background-color: #ffffff;
+}
 
 .logo-left {
     line-height: 20px;
@@ -14,6 +17,8 @@
 .navbar {
     background-color: #ffffffff;
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+    position: fixed;
+    width: 100%;
 }
 .navbar_link {
     display: flex;
@@ -43,8 +48,8 @@
     justify-items: center;
     align-content: center;
     align-items: center;
-    height: 70vh;
-    background-color: aliceblue;
+    height: 65vh;
+    background-color: #ecf0f1;
     text-align: center;
 }
 
@@ -65,4 +70,12 @@
 .nos_programme h1 {
     text-align: center;
     font-weight: bold;
+}
+
+.international {
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+.inner_rgb {
+    background-color: #ecf0f1;
 }
