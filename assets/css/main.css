@@ -19,6 +19,7 @@ body{
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
     position: fixed;
     width: 100%;
+    z-index: 99;
 }
 .navbar_link {
     display: flex;
@@ -77,5 +78,10 @@ body{
     text-transform: uppercase;    
 }
 .inner_rgb {
+    background-color: #ecf0f1;
+}
+
+/* footer mode  */
+.footer_mod {
     background-color: #ecf0f1;
 }
