@@ -95,8 +95,8 @@ body{
 
 /* formulaire d'inscription  */
 
-input[type=text], [type=password] {
-    width: 100%; 
+input[type=email], [type=password] {
+    width: 80%; 
     padding: 12px; 
     border: 1px solid #ccc; 
     border-radius: 4px; 
@@ -105,34 +105,19 @@ input[type=text], [type=password] {
     margin-bottom: 16px;
     resize: vertical;
   }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container-grid {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-top: 10%;
-    align-content: center;
-    justify-items: center;
-  }
-  .items {
+
+.form_grid {
     display: flex;
+    background-color: #ecf0f1;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
     justify-content: center;
     justify-items: center;
+  }
+.form_items {
+    display: flex;
     align-items: center;
-    align-content: space-between;
-    background-color: #04AA6D;
-    width: 50%;
-    margin: auto;
-    height: 400px;
-    border-radius: 20px 20px 20px 20px;
+    justify-items: center;
+    justify-content: center;
   }
