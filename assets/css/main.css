@@ -58,6 +58,7 @@ body{
 
 .inner-banniere h1 {
     text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 3em;
 }   
@@ -73,11 +74,13 @@ body{
 .nos_programme h1 {
     text-align: center;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .international {
     font-weight: bold;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 .inner_rgb {
     background-color: #f8f9fa;
@@ -115,8 +118,8 @@ input[type=email], [type=password] {
     display: flex;
     background-color: #f8f9fa;
     margin: auto;
-    width: 30%;
-    padding: 10px;
+    width: 35%;
+    padding: 30px;
     justify-content: center;
     justify-items: center;
     border-radius: 5px 5px 5px 5px;
